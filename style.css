@@ -1,0 +1,288 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+    color: #2c3e50;
+    border-bottom: 2px solid #ecf0f1;
+    padding-bottom: 10px;
+}
+
+form {
+    margin-bottom: 30px;
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+form table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+form td {
+    padding: 8px;
+}
+
+form td:first-child {
+    width: 120px;
+    font-weight: bold;
+}
+
+input[type="text"],
+select,
+textarea {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #bdc3c7;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+textarea {
+    resize: vertical; 
+    min-height: 80px;
+}
+
+        
+input[type="submit"] {
+    background-color: #6fd171;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #327c1d;
+}
+
+input[name="update"] {
+    background-color: #2ecc71;
+}
+
+input[name="update"]:hover {
+    background-color: #27ae60;
+}
+
+a.batal {
+    display: inline-block;
+    margin-left: 10px;
+    padding: 10px 15px;
+    background-color: #e74c3c;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 14px;
+    vertical-align: middle; 
+}
+
+a.batal:hover {
+    background-color: #c0392b;
+}
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.data-table th,
+.data-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.data-table th {
+    background-color: #34495e;
+    color: white;
+}
+
+.data-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.data-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.data-table .aksi a {
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    color: white;
+    margin-right: 5px;
+}
+
+.data-table .aksi a.delete {
+    background-color: #e74c3c; 
+}
+        
+.data-table .aksi a.update {
+    background-color: #f39c12;
+}
+
+body {
+    background: rgb(190, 230, 174);
+}
+        
+.login-card {
+    width: 370px;
+    border-radius: 15px;
+}
+
+.login-link {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+.login-link a {
+    color: #6fd171;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login-link a:hover {
+    text-decoration: underline;
+}
+
+.logout-btn {
+    position: fixed;
+    top: 15px;
+    right: 20px;
+    background: #dc3545;
+    padding: 8px 16px;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    z-index: 999;
+}
+
+.logout-btn:hover {
+    background: #aa7379;
+}
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.nav-link {
+    font-size: 15px;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+
+.nav-link:hover {
+    background: rgba(255,255,255,0.2);
+    border-radius: 6px;
+}
+
+.register-container {
+
+    background-color: #ffffff;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 90%;
+    text-align: center;
+}
+
+h2 {
+    color: #6fd171;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-sizing: border-box; 
+    font-size: 16px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: #6fd171;
+    box-shadow: 0 0 0 3px rgba(26, 115, 232, 0.2);
+    outline: none;
+}
+
+.btn-register {
+    background-color: #6fd171;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-register:hover {
+    background-color: #6fd171;
+}
+
+.msg {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    background-color: #ffcccc; 
+    color: #cc0000;
+    border: 1px solid #cc0000;
+    font-weight: 500;
+    text-align: left;
+}
+
+.login-link {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666;
+}
+
+.login-link a {
+    color: #6fd171;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+.login-link a:hover {
+    color: #6fd171;
+    text-decoration: underline;
+}
